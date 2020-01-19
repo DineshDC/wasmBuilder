@@ -12,7 +12,7 @@
  -pbr or --buildandrun (build the project and run using  python -m SimpleHTTPServer 8000)
  -hr or --hotrun run with notify that will identify changes src, www, libs folder and build the project and run (just like hot reload)
 ```
-#
+
 # Add notify 
   * write class that will identify the changes in www,src,libs and notify <span style="color:green;">[D]</span>
   * Optimize the notify behviour <span style="color:yellow;">[IP]</span>
@@ -25,7 +25,7 @@
  * This will open the web browser and reload the page on build
 
 # Auto download all dependancies 
- * Identify and download dependancies 
+ * Identify and download dependancies [Use curl to download]
     - Download latest emsdk build and add to env path (source /home/dd/WASM/emsdk/emsdk_env.sh --build=Release > /dev/null)
     - Download build tools require to build
     - Download latest python to run simple http server
